@@ -1,0 +1,281 @@
+{
+  "objectIdFieldName" : "OBJECTID", 
+  "globalIdFieldName" : "", 
+  "geometryType" : "esriGeometryPolyline", 
+  "spatialReference" : {
+    "wkid" : 28992, 
+    "latestWkid" : 28992
+  }, 
+  "fields" : [
+    {
+      "name" : "OBJECTID", 
+      "type" : "esriFieldTypeOID", 
+      "alias" : "OBJECTID", 
+      "sqlType" : "sqlTypeOther", 
+      "domain" : null, 
+      "defaultValue" : null
+    }, 
+    {
+      "name" : "BETROUWBAA", 
+      "type" : "esriFieldTypeDouble", 
+      "alias" : "BETROUWBAA", 
+      "sqlType" : "sqlTypeOther", 
+      "domain" : null, 
+      "defaultValue" : null
+    }, 
+    {
+      "name" : "BRON", 
+      "type" : "esriFieldTypeString", 
+      "alias" : "BRON", 
+      "sqlType" : "sqlTypeOther", 
+      "length" : 5, 
+      "domain" : null, 
+      "defaultValue" : null
+    }, 
+    {
+      "name" : "CLASSIFICA", 
+      "type" : "esriFieldTypeString", 
+      "alias" : "CLASSIFICA", 
+      "sqlType" : "sqlTypeOther", 
+      "length" : 9, 
+      "domain" : null, 
+      "defaultValue" : null
+    }, 
+    {
+      "name" : "IDEALISATI", 
+      "type" : "esriFieldTypeDouble", 
+      "alias" : "IDEALISATI", 
+      "sqlType" : "sqlTypeOther", 
+      "domain" : null, 
+      "defaultValue" : null
+    }, 
+    {
+      "name" : "IDENTIFICA", 
+      "type" : "esriFieldTypeString", 
+      "alias" : "IDENTIFICA", 
+      "sqlType" : "sqlTypeOther", 
+      "length" : 10, 
+      "domain" : null, 
+      "defaultValue" : null
+    }, 
+    {
+      "name" : "INWINNING", 
+      "type" : "esriFieldTypeDouble", 
+      "alias" : "INWINNING", 
+      "sqlType" : "sqlTypeOther", 
+      "domain" : null, 
+      "defaultValue" : null
+    }, 
+    {
+      "name" : "OPNAMEDATU", 
+      "type" : "esriFieldTypeDate", 
+      "alias" : "OPNAMEDATU", 
+      "sqlType" : "sqlTypeOther", 
+      "length" : 8, 
+      "domain" : null, 
+      "defaultValue" : null
+    }, 
+    {
+      "name" : "PRECISIE", 
+      "type" : "esriFieldTypeDouble", 
+      "alias" : "PRECISIE", 
+      "sqlType" : "sqlTypeOther", 
+      "domain" : null, 
+      "defaultValue" : null
+    }, 
+    {
+      "name" : "SELECTIE", 
+      "type" : "esriFieldTypeString", 
+      "alias" : "SELECTIE", 
+      "sqlType" : "sqlTypeOther", 
+      "length" : 6, 
+      "domain" : null, 
+      "defaultValue" : null
+    }, 
+    {
+      "name" : "ZICHTBAARH", 
+      "type" : "esriFieldTypeDouble", 
+      "alias" : "ZICHTBAARH", 
+      "sqlType" : "sqlTypeOther", 
+      "domain" : null, 
+      "defaultValue" : null
+    }, 
+    {
+      "name" : "CT_6LKI_BE", 
+      "type" : "esriFieldTypeString", 
+      "alias" : "CT_6LKI_BE", 
+      "sqlType" : "sqlTypeOther", 
+      "length" : 40, 
+      "domain" : null, 
+      "defaultValue" : null
+    }, 
+    {
+      "name" : "CT_5LKI_ID", 
+      "type" : "esriFieldTypeString", 
+      "alias" : "CT_5LKI_ID", 
+      "sqlType" : "sqlTypeOther", 
+      "length" : 40, 
+      "domain" : null, 
+      "defaultValue" : null
+    }, 
+    {
+      "name" : "CT_9LKI_IN", 
+      "type" : "esriFieldTypeString", 
+      "alias" : "CT_9LKI_IN", 
+      "sqlType" : "sqlTypeOther", 
+      "length" : 40, 
+      "domain" : null, 
+      "defaultValue" : null
+    }, 
+    {
+      "name" : "CT_4LKI_PR", 
+      "type" : "esriFieldTypeString", 
+      "alias" : "CT_4LKI_PR", 
+      "sqlType" : "sqlTypeOther", 
+      "length" : 40, 
+      "domain" : null, 
+      "defaultValue" : null
+    }, 
+    {
+      "name" : "CT_8LKI_ZI", 
+      "type" : "esriFieldTypeString", 
+      "alias" : "CT_8LKI_ZI", 
+      "sqlType" : "sqlTypeOther", 
+      "length" : 40, 
+      "domain" : null, 
+      "defaultValue" : null
+    }
+  ], 
+  "features" : [
+    {
+      "attributes" : {
+        "OBJECTID" : 1, 
+        "BETROUWBAA" : 0, 
+        "BRON" : "GPS", 
+        "CLASSIFICA" : "V01", 
+        "IDEALISATI" : 0, 
+        "IDENTIFICA" : "023010804", 
+        "INWINNING" : 1, 
+        "OPNAMEDATU" : 885340800000, 
+        "PRECISIE" : 1, 
+        "SELECTIE" : " ", 
+        "ZICHTBAARH" : 0, 
+        "CT_6LKI_BE" : "Niet bekend", 
+        "CT_5LKI_ID" : "Niet bekend", 
+        "CT_9LKI_IN" : "Terrestrisch", 
+        "CT_4LKI_PR" : " 0- 2 cm", 
+        "CT_8LKI_ZI" : "Normaal/Niet bekend"
+      }, 
+      "geometry" : 
+      {
+        "paths" : 
+        [
+          [
+            [206007.741, 495000], 
+            [206005.998, 495003.903000001], 
+            [206002.129000001, 495012.863000002], 
+            [206000, 495017.884]
+          ]
+        ]
+      }
+    }, 
+    {
+      "attributes" : {
+        "OBJECTID" : 2, 
+        "BETROUWBAA" : 0, 
+        "BRON" : "GPS", 
+        "CLASSIFICA" : "V01", 
+        "IDEALISATI" : 0, 
+        "IDENTIFICA" : "023010804", 
+        "INWINNING" : 1, 
+        "OPNAMEDATU" : 885340800000, 
+        "PRECISIE" : 1, 
+        "SELECTIE" : " ", 
+        "ZICHTBAARH" : 0, 
+        "CT_6LKI_BE" : "Niet bekend", 
+        "CT_5LKI_ID" : "Niet bekend", 
+        "CT_9LKI_IN" : "Terrestrisch", 
+        "CT_4LKI_PR" : " 0- 2 cm", 
+        "CT_8LKI_ZI" : "Normaal/Niet bekend"
+      }, 
+      "geometry" : 
+      {
+        "paths" : 
+        [
+          [
+            [206013.285, 495000], 
+            [206011.480999999, 495003.953000002], 
+            [206007.364, 495013.370000001], 
+            [206003.583999999, 495022.405000001], 
+            [206000.963, 495028.772]
+          ]
+        ]
+      }
+    }, 
+    {
+      "attributes" : {
+        "OBJECTID" : 3, 
+        "BETROUWBAA" : 0, 
+        "BRON" : "GPS", 
+        "CLASSIFICA" : "V01", 
+        "IDEALISATI" : 0, 
+        "IDENTIFICA" : "023010804", 
+        "INWINNING" : 1, 
+        "OPNAMEDATU" : 885340800000, 
+        "PRECISIE" : 1, 
+        "SELECTIE" : " ", 
+        "ZICHTBAARH" : 0, 
+        "CT_6LKI_BE" : "Niet bekend", 
+        "CT_5LKI_ID" : "Niet bekend", 
+        "CT_9LKI_IN" : "Terrestrisch", 
+        "CT_4LKI_PR" : " 0- 2 cm", 
+        "CT_8LKI_ZI" : "Normaal/Niet bekend"
+      }, 
+      "geometry" : 
+      {
+        "paths" : 
+        [
+          [
+            [206017.730999999, 495000], 
+            [206014.651000001, 495006.848000001], 
+            [206011.313000001, 495014.537999999], 
+            [206007.175000001, 495024.157000002], 
+            [206004.377, 495030.943], 
+            [206001.226, 495038.947999999], 
+            [206000, 495042.011999998]
+          ]
+        ]
+      }
+    }, 
+    {
+      "attributes" : {
+        "OBJECTID" : 4, 
+        "BETROUWBAA" : 0, 
+        "BRON" : "GPS", 
+        "CLASSIFICA" : "V01", 
+        "IDEALISATI" : 0, 
+        "IDENTIFICA" : "023010804", 
+        "INWINNING" : 1, 
+        "OPNAMEDATU" : 885340800000, 
+        "PRECISIE" : 1, 
+        "SELECTIE" : " ", 
+        "ZICHTBAARH" : 0, 
+        "CT_6LKI_BE" : "Niet bekend", 
+        "CT_5LKI_ID" : "Niet bekend", 
+        "CT_9LKI_IN" : "Terrestrisch", 
+        "CT_4LKI_PR" : " 0- 2 cm", 
+        "CT_8LKI_ZI" : "Normaal/Niet bekend"
+      }, 
+      "geometry" : 
+      {
+        "paths" : 
+        [
+          [
+            [206000, 495031.162999999], 
+            [206000.963, 495028.772]
+          ]
+        ]
+      }
+    }
+  ]
+}

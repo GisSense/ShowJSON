@@ -1,0 +1,213 @@
+{
+  "objectIdFieldName" : "OBJECTID", 
+  "globalIdFieldName" : "", 
+  "geometryType" : "esriGeometryPoint", 
+  "spatialReference" : {
+    "wkid" : 28992, 
+    "latestWkid" : 28992
+  }, 
+  "fields" : [
+    {
+      "name" : "OBJECTID", 
+      "type" : "esriFieldTypeOID", 
+      "alias" : "OBJECTID", 
+      "sqlType" : "sqlTypeOther", 
+      "domain" : null, 
+      "defaultValue" : null
+    }, 
+    {
+      "name" : "BLADNUMMER", 
+      "type" : "esriFieldTypeDouble", 
+      "alias" : "BLADNUMMER", 
+      "sqlType" : "sqlTypeOther", 
+      "domain" : null, 
+      "defaultValue" : null
+    }, 
+    {
+      "name" : "CLASSIFICA", 
+      "type" : "esriFieldTypeString", 
+      "alias" : "CLASSIFICA", 
+      "sqlType" : "sqlTypeOther", 
+      "length" : 9, 
+      "domain" : null, 
+      "defaultValue" : null
+    }, 
+    {
+      "name" : "GEMEENTE", 
+      "type" : "esriFieldTypeString", 
+      "alias" : "GEMEENTE", 
+      "sqlType" : "sqlTypeOther", 
+      "length" : 5, 
+      "domain" : null, 
+      "defaultValue" : null
+    }, 
+    {
+      "name" : "GEMEENTEBL", 
+      "type" : "esriFieldTypeString", 
+      "alias" : "GEMEENTEBL", 
+      "sqlType" : "sqlTypeOther", 
+      "length" : 5, 
+      "domain" : null, 
+      "defaultValue" : null
+    }, 
+    {
+      "name" : "IDENTIFICA", 
+      "type" : "esriFieldTypeString", 
+      "alias" : "IDENTIFICA", 
+      "sqlType" : "sqlTypeOther", 
+      "length" : 10, 
+      "domain" : null, 
+      "defaultValue" : null
+    }, 
+    {
+      "name" : "INDEXLETTE", 
+      "type" : "esriFieldTypeString", 
+      "alias" : "INDEXLETTE", 
+      "sqlType" : "sqlTypeOther", 
+      "length" : 1, 
+      "domain" : null, 
+      "defaultValue" : null
+    }, 
+    {
+      "name" : "INDEXNUMME", 
+      "type" : "esriFieldTypeDouble", 
+      "alias" : "INDEXNUMME", 
+      "sqlType" : "sqlTypeOther", 
+      "domain" : null, 
+      "defaultValue" : null
+    }, 
+    {
+      "name" : "NUMMER", 
+      "type" : "esriFieldTypeDouble", 
+      "alias" : "NUMMER", 
+      "sqlType" : "sqlTypeOther", 
+      "domain" : null, 
+      "defaultValue" : null
+    }, 
+    {
+      "name" : "OPPERVLAKT", 
+      "type" : "esriFieldTypeDouble", 
+      "alias" : "OPPERVLAKT", 
+      "sqlType" : "sqlTypeOther", 
+      "domain" : null, 
+      "defaultValue" : null
+    }, 
+    {
+      "name" : "SECTIE", 
+      "type" : "esriFieldTypeString", 
+      "alias" : "SECTIE", 
+      "sqlType" : "sqlTypeOther", 
+      "length" : 2, 
+      "domain" : null, 
+      "defaultValue" : null
+    }, 
+    {
+      "name" : "SECTIEBLAD", 
+      "type" : "esriFieldTypeString", 
+      "alias" : "SECTIEBLAD", 
+      "sqlType" : "sqlTypeOther", 
+      "length" : 2, 
+      "domain" : null, 
+      "defaultValue" : null
+    }, 
+    {
+      "name" : "SELECTIE", 
+      "type" : "esriFieldTypeString", 
+      "alias" : "SELECTIE", 
+      "sqlType" : "sqlTypeOther", 
+      "length" : 6, 
+      "domain" : null, 
+      "defaultValue" : null
+    }
+  ], 
+  "features" : [
+    {
+      "attributes" : {
+        "OBJECTID" : 1, 
+        "BLADNUMMER" : 11, 
+        "CLASSIFICA" : "Z01", 
+        "GEMEENTE" : "ZLE00", 
+        "GEMEENTEBL" : "ZLE00", 
+        "IDENTIFICA" : "023010706", 
+        "INDEXLETTE" : "G", 
+        "INDEXNUMME" : 0, 
+        "NUMMER" : 686, 
+        "OPPERVLAKT" : 50295, 
+        "SECTIE" : "U", 
+        "SECTIEBLAD" : "U", 
+        "SELECTIE" : " "
+      }, 
+      "geometry" : 
+      {
+        "x" : 206026.36300000176, 
+        "y" : 496108.37999999896
+      }
+    }, 
+    {
+      "attributes" : {
+        "OBJECTID" : 2, 
+        "BLADNUMMER" : 12, 
+        "CLASSIFICA" : "Z01", 
+        "GEMEENTE" : "ZLE00", 
+        "GEMEENTEBL" : "ZLE00", 
+        "IDENTIFICA" : "023010706", 
+        "INDEXLETTE" : "G", 
+        "INDEXNUMME" : 0, 
+        "NUMMER" : 728, 
+        "OPPERVLAKT" : 33010, 
+        "SECTIE" : "U", 
+        "SECTIEBLAD" : "U", 
+        "SELECTIE" : " "
+      }, 
+      "geometry" : 
+      {
+        "x" : 206042.36100000143, 
+        "y" : 496244.87900000066
+      }
+    }, 
+    {
+      "attributes" : {
+        "OBJECTID" : 3, 
+        "BLADNUMMER" : 12, 
+        "CLASSIFICA" : "Z01", 
+        "GEMEENTE" : "ZLE00", 
+        "GEMEENTEBL" : "ZLE00", 
+        "IDENTIFICA" : "023010706", 
+        "INDEXLETTE" : "G", 
+        "INDEXNUMME" : 0, 
+        "NUMMER" : 724, 
+        "OPPERVLAKT" : 42590, 
+        "SECTIE" : "U", 
+        "SECTIEBLAD" : "U", 
+        "SELECTIE" : " "
+      }, 
+      "geometry" : 
+      {
+        "x" : 206041.25499999896, 
+        "y" : 496560.66699999943
+      }
+    }, 
+    {
+      "attributes" : {
+        "OBJECTID" : 4, 
+        "BLADNUMMER" : 5, 
+        "CLASSIFICA" : "Z01", 
+        "GEMEENTE" : "ZLE00", 
+        "GEMEENTEBL" : "ZLE00", 
+        "IDENTIFICA" : "023010706", 
+        "INDEXLETTE" : "G", 
+        "INDEXNUMME" : 0, 
+        "NUMMER" : 399, 
+        "OPPERVLAKT" : 67275, 
+        "SECTIE" : "U", 
+        "SECTIEBLAD" : "U", 
+        "SELECTIE" : " "
+      }, 
+      "geometry" : 
+      {
+        "x" : 206038.10799999908, 
+        "y" : 497345.74700000137
+      }
+    }
+  ]
+}

@@ -1,0 +1,725 @@
+{
+  "objectIdFieldName" : "OBJECTID", 
+  "globalIdFieldName" : "GLOBALID", 
+  "geometryType" : "esriGeometryPolygon", 
+  "spatialReference" : {
+    "wkid" : 28992, 
+    "latestWkid" : 28992
+  }, 
+  "fields" : [
+    {
+      "name" : "OBJECTID", 
+      "type" : "esriFieldTypeOID", 
+      "alias" : "OBJECTID", 
+      "sqlType" : "sqlTypeOther", 
+      "domain" : null, 
+      "defaultValue" : null
+    }, 
+    {
+      "name" : "FUNCTIONEEL_ID", 
+      "type" : "esriFieldTypeString", 
+      "alias" : "FUNCTIONEEL_ID", 
+      "sqlType" : "sqlTypeOther", 
+      "length" : 20, 
+      "domain" : null, 
+      "defaultValue" : null
+    }, 
+    {
+      "name" : "NEN3610ID", 
+      "type" : "esriFieldTypeString", 
+      "alias" : "NEN3610ID", 
+      "sqlType" : "sqlTypeOther", 
+      "length" : 60, 
+      "domain" : null, 
+      "defaultValue" : null
+    }, 
+    {
+      "name" : "BEGINGELDIGHEID", 
+      "type" : "esriFieldTypeDate", 
+      "alias" : "BEGINGELDIGHEID", 
+      "sqlType" : "sqlTypeOther", 
+      "length" : 8, 
+      "domain" : null, 
+      "defaultValue" : null
+    }, 
+    {
+      "name" : "EINDGELDIGHEID", 
+      "type" : "esriFieldTypeDate", 
+      "alias" : "EINDGELDIGHEID", 
+      "sqlType" : "sqlTypeOther", 
+      "length" : 8, 
+      "domain" : null, 
+      "defaultValue" : null
+    }, 
+    {
+      "name" : "CLASSIFICATIEREGELINGPERCEEL", 
+      "type" : "esriFieldTypeString", 
+      "alias" : "CLASSIFICATIEREGELINGPERCEEL", 
+      "sqlType" : "sqlTypeOther", 
+      "length" : 3, 
+      "domain" : null, 
+      "defaultValue" : null
+    }, 
+    {
+      "name" : "BRON_REGELINGPERCEEL", 
+      "type" : "esriFieldTypeString", 
+      "alias" : "BRON_REGELINGPERCEEL", 
+      "sqlType" : "sqlTypeOther", 
+      "length" : 3, 
+      "domain" : null, 
+      "defaultValue" : null
+    }, 
+    {
+      "name" : "REGELINGPERCEEL_NAAM", 
+      "type" : "esriFieldTypeString", 
+      "alias" : "REGELINGPERCEEL_NAAM", 
+      "sqlType" : "sqlTypeOther", 
+      "length" : 255, 
+      "domain" : null, 
+      "defaultValue" : null
+    }, 
+    {
+      "name" : "ZAAK_ID", 
+      "type" : "esriFieldTypeInteger", 
+      "alias" : "ZAAK_ID", 
+      "sqlType" : "sqlTypeOther", 
+      "domain" : null, 
+      "defaultValue" : null
+    }, 
+    {
+      "name" : "REDEN_GECONSTATEERDE_AFWIJKING", 
+      "type" : "esriFieldTypeString", 
+      "alias" : "REDEN_GECONSTATEERDE_AFWIJKING", 
+      "sqlType" : "sqlTypeOther", 
+      "length" : 11, 
+      "domain" : null, 
+      "defaultValue" : null
+    }, 
+    {
+      "name" : "CATEGORIE_KENNELIJKE_FOUT", 
+      "type" : "esriFieldTypeString", 
+      "alias" : "CATEGORIE_KENNELIJKE_FOUT", 
+      "sqlType" : "sqlTypeOther", 
+      "length" : 3, 
+      "domain" : null, 
+      "defaultValue" : null
+    }, 
+    {
+      "name" : "POTENTIELE_OPZET", 
+      "type" : "esriFieldTypeString", 
+      "alias" : "POTENTIELE_OPZET", 
+      "sqlType" : "sqlTypeOther", 
+      "length" : 3, 
+      "domain" : null, 
+      "defaultValue" : null
+    }, 
+    {
+      "name" : "IND_GEANNULEERD", 
+      "type" : "esriFieldTypeString", 
+      "alias" : "IND_GEANNULEERD", 
+      "sqlType" : "sqlTypeOther", 
+      "length" : 1, 
+      "domain" : null, 
+      "defaultValue" : null
+    }, 
+    {
+      "name" : "OPPERVLAKTE", 
+      "type" : "esriFieldTypeDouble", 
+      "alias" : "OPPERVLAKTE", 
+      "sqlType" : "sqlTypeOther", 
+      "domain" : null, 
+      "defaultValue" : null
+    }, 
+    {
+      "name" : "BETEELDEOPPERVLAKTE", 
+      "type" : "esriFieldTypeDouble", 
+      "alias" : "BETEELDEOPPERVLAKTE", 
+      "sqlType" : "sqlTypeOther", 
+      "domain" : null, 
+      "defaultValue" : null
+    }, 
+    {
+      "name" : "GRONDBEDEKKINGTYPE", 
+      "type" : "esriFieldTypeString", 
+      "alias" : "GRONDBEDEKKINGTYPE", 
+      "sqlType" : "sqlTypeOther", 
+      "length" : 10, 
+      "domain" : null, 
+      "defaultValue" : null
+    }, 
+    {
+      "name" : "GRONDBEDEKKING", 
+      "type" : "esriFieldTypeString", 
+      "alias" : "GRONDBEDEKKING", 
+      "sqlType" : "sqlTypeOther", 
+      "length" : 10, 
+      "domain" : null, 
+      "defaultValue" : null
+    }, 
+    {
+      "name" : "PALWAARDE", 
+      "type" : "esriFieldTypeInteger", 
+      "alias" : "PALWAARDE", 
+      "sqlType" : "sqlTypeOther", 
+      "domain" : null, 
+      "defaultValue" : null
+    }, 
+    {
+      "name" : "PWWAARDE", 
+      "type" : "esriFieldTypeInteger", 
+      "alias" : "PWWAARDE", 
+      "sqlType" : "sqlTypeOther", 
+      "domain" : null, 
+      "defaultValue" : null
+    }, 
+    {
+      "name" : "VOLGTEELT1GRONDBEDEKKINGTYPE", 
+      "type" : "esriFieldTypeString", 
+      "alias" : "VOLGTEELT1GRONDBEDEKKINGTYPE", 
+      "sqlType" : "sqlTypeOther", 
+      "length" : 10, 
+      "domain" : null, 
+      "defaultValue" : null
+    }, 
+    {
+      "name" : "VOLGTEELT1GRONDBEDEKKING", 
+      "type" : "esriFieldTypeString", 
+      "alias" : "VOLGTEELT1GRONDBEDEKKING", 
+      "sqlType" : "sqlTypeOther", 
+      "length" : 10, 
+      "domain" : null, 
+      "defaultValue" : null
+    }, 
+    {
+      "name" : "VOLGTEELT1OPPERVLAKTE", 
+      "type" : "esriFieldTypeDouble", 
+      "alias" : "VOLGTEELT1OPPERVLAKTE", 
+      "sqlType" : "sqlTypeOther", 
+      "domain" : null, 
+      "defaultValue" : null
+    }, 
+    {
+      "name" : "VOLGTEELT2GRONDBEDEKKINGTYPE", 
+      "type" : "esriFieldTypeString", 
+      "alias" : "VOLGTEELT2GRONDBEDEKKINGTYPE", 
+      "sqlType" : "sqlTypeOther", 
+      "length" : 10, 
+      "domain" : null, 
+      "defaultValue" : null
+    }, 
+    {
+      "name" : "VOLGTEELT2GRONDBEDEKKING", 
+      "type" : "esriFieldTypeString", 
+      "alias" : "VOLGTEELT2GRONDBEDEKKING", 
+      "sqlType" : "sqlTypeOther", 
+      "length" : 10, 
+      "domain" : null, 
+      "defaultValue" : null
+    }, 
+    {
+      "name" : "VOLGTEELT2OPPERVLAKTE", 
+      "type" : "esriFieldTypeDouble", 
+      "alias" : "VOLGTEELT2OPPERVLAKTE", 
+      "sqlType" : "sqlTypeOther", 
+      "domain" : null, 
+      "defaultValue" : null
+    }, 
+    {
+      "name" : "VOLGTEELT3GRONDBEDEKKINGTYPE", 
+      "type" : "esriFieldTypeString", 
+      "alias" : "VOLGTEELT3GRONDBEDEKKINGTYPE", 
+      "sqlType" : "sqlTypeOther", 
+      "length" : 10, 
+      "domain" : null, 
+      "defaultValue" : null
+    }, 
+    {
+      "name" : "VOLGTEELT3GRONDBEDEKKING", 
+      "type" : "esriFieldTypeString", 
+      "alias" : "VOLGTEELT3GRONDBEDEKKING", 
+      "sqlType" : "sqlTypeOther", 
+      "length" : 10, 
+      "domain" : null, 
+      "defaultValue" : null
+    }, 
+    {
+      "name" : "VOLGTEELT3OPPERVLAKTE", 
+      "type" : "esriFieldTypeDouble", 
+      "alias" : "VOLGTEELT3OPPERVLAKTE", 
+      "sqlType" : "sqlTypeOther", 
+      "domain" : null, 
+      "defaultValue" : null
+    }, 
+    {
+      "name" : "DIENSTSLEUTEL", 
+      "type" : "esriFieldTypeString", 
+      "alias" : "DIENSTSLEUTEL", 
+      "sqlType" : "sqlTypeOther", 
+      "length" : 20, 
+      "domain" : null, 
+      "defaultValue" : null
+    }, 
+    {
+      "name" : "HOOFDREF_PERCEEL_ID", 
+      "type" : "esriFieldTypeString", 
+      "alias" : "HOOFDREF_PERCEEL_ID", 
+      "sqlType" : "sqlTypeOther", 
+      "length" : 20, 
+      "domain" : null, 
+      "defaultValue" : null
+    }, 
+    {
+      "name" : "TYPE_DIENSTSLEUTEL", 
+      "type" : "esriFieldTypeString", 
+      "alias" : "TYPE_DIENSTSLEUTEL", 
+      "sqlType" : "sqlTypeOther", 
+      "length" : 3, 
+      "domain" : null, 
+      "defaultValue" : null
+    }, 
+    {
+      "name" : "IND_INGETROKKEN", 
+      "type" : "esriFieldTypeString", 
+      "alias" : "IND_INGETROKKEN", 
+      "sqlType" : "sqlTypeOther", 
+      "length" : 1, 
+      "domain" : null, 
+      "defaultValue" : null
+    }, 
+    {
+      "name" : "VOLGNUMMER", 
+      "type" : "esriFieldTypeSmallInteger", 
+      "alias" : "VOLGNUMMER", 
+      "sqlType" : "sqlTypeOther", 
+      "domain" : null, 
+      "defaultValue" : null
+    }, 
+    {
+      "name" : "GLOBALID", 
+      "type" : "esriFieldTypeGlobalID", 
+      "alias" : "GLOBALID", 
+      "sqlType" : "sqlTypeOther", 
+      "length" : 38, 
+      "domain" : null, 
+      "defaultValue" : null
+    }, 
+    {
+      "name" : "SUBSOPPERVLAKTE", 
+      "type" : "esriFieldTypeDouble", 
+      "alias" : "SUBSOPPERVLAKTE", 
+      "sqlType" : "sqlTypeOther", 
+      "domain" : null, 
+      "defaultValue" : null
+    }, 
+    {
+      "name" : "GEBRUIKSTITEL", 
+      "type" : "esriFieldTypeString", 
+      "alias" : "GEBRUIKSTITEL", 
+      "sqlType" : "sqlTypeOther", 
+      "length" : 10, 
+      "domain" : null, 
+      "defaultValue" : null
+    }, 
+    {
+      "name" : "ORIGINEEL_VOLGNUMMER", 
+      "type" : "esriFieldTypeSmallInteger", 
+      "alias" : "ORIGINEEL_VOLGNUMMER", 
+      "sqlType" : "sqlTypeOther", 
+      "domain" : null, 
+      "defaultValue" : null
+    }, 
+    {
+      "name" : "DATUM_OPGAVE", 
+      "type" : "esriFieldTypeDate", 
+      "alias" : "DATUM_OPGAVE", 
+      "sqlType" : "sqlTypeOther", 
+      "length" : 8, 
+      "domain" : null, 
+      "defaultValue" : null
+    }, 
+    {
+      "name" : "SECTOR_ID", 
+      "type" : "esriFieldTypeString", 
+      "alias" : "SECTOR_ID", 
+      "sqlType" : "sqlTypeOther", 
+      "length" : 60, 
+      "domain" : null, 
+      "defaultValue" : null
+    }, 
+    {
+      "name" : "SECTOR_VERSIE", 
+      "type" : "esriFieldTypeString", 
+      "alias" : "SECTOR_VERSIE", 
+      "sqlType" : "sqlTypeOther", 
+      "length" : 16, 
+      "domain" : null, 
+      "defaultValue" : null
+    }, 
+    {
+      "name" : "FUNCTIONEEL_ID_AANGEVRAAGD", 
+      "type" : "esriFieldTypeString", 
+      "alias" : "FUNCTIONEEL_ID_AANGEVRAAGD", 
+      "sqlType" : "sqlTypeOther", 
+      "length" : 20, 
+      "domain" : null, 
+      "defaultValue" : null
+    }, 
+    {
+      "name" : "SECTOR_ID_AANGEVRAAGD", 
+      "type" : "esriFieldTypeString", 
+      "alias" : "SECTOR_ID_AANGEVRAAGD", 
+      "sqlType" : "sqlTypeOther", 
+      "length" : 60, 
+      "domain" : null, 
+      "defaultValue" : null
+    }
+  ], 
+  "features" : [
+    {
+      "attributes" : {
+        "OBJECTID" : 390822, 
+        "FUNCTIONEEL_ID" : "32.0000000373448.003", 
+        "NEN3610ID" : "NL.IMDR.7d957509-58c5-4160-bc39-c18e383d94cd", 
+        "BEGINGELDIGHEID" : 1420070400000, 
+        "EINDGELDIGHEID" : 1451606400000, 
+        "CLASSIFICATIEREGELINGPERCEEL" : "030", 
+        "BRON_REGELINGPERCEEL" : "010", 
+        "REGELINGPERCEEL_NAAM" : null, 
+        "ZAAK_ID" : 8454142, 
+        "REDEN_GECONSTATEERDE_AFWIJKING" : "GSL", 
+        "CATEGORIE_KENNELIJKE_FOUT" : null, 
+        "POTENTIELE_OPZET" : null, 
+        "IND_GEANNULEERD" : null, 
+        "OPPERVLAKTE" : 5.641, 
+        "BETEELDEOPPERVLAKTE" : 5.65, 
+        "GRONDBEDEKKINGTYPE" : "001", 
+        "GRONDBEDEKKING" : "236", 
+        "PALWAARDE" : null, 
+        "PWWAARDE" : null, 
+        "VOLGTEELT1GRONDBEDEKKINGTYPE" : "001", 
+        "VOLGTEELT1GRONDBEDEKKING" : "3524", 
+        "VOLGTEELT1OPPERVLAKTE" : 5.65, 
+        "VOLGTEELT2GRONDBEDEKKINGTYPE" : null, 
+        "VOLGTEELT2GRONDBEDEKKING" : null, 
+        "VOLGTEELT2OPPERVLAKTE" : null, 
+        "VOLGTEELT3GRONDBEDEKKINGTYPE" : null, 
+        "VOLGTEELT3GRONDBEDEKKING" : null, 
+        "VOLGTEELT3OPPERVLAKTE" : null, 
+        "DIENSTSLEUTEL" : "204594938", 
+        "HOOFDREF_PERCEEL_ID" : "10.0000000842441.004", 
+        "TYPE_DIENSTSLEUTEL" : "BRS", 
+        "IND_INGETROKKEN" : null, 
+        "VOLGNUMMER" : 7, 
+        "GLOBALID" : "53355f82-0456-4382-b431-ad32cf06b6c6", 
+        "SUBSOPPERVLAKTE" : 5.65, 
+        "GEBRUIKSTITEL" : "01", 
+        "ORIGINEEL_VOLGNUMMER" : 7, 
+        "DATUM_OPGAVE" : 1431689273000, 
+        "SECTOR_ID" : null, 
+        "SECTOR_VERSIE" : null, 
+        "FUNCTIONEEL_ID_AANGEVRAAGD" : null, 
+        "SECTOR_ID_AANGEVRAAGD" : null
+      }, 
+      "geometry" : 
+      {
+        "rings" : 
+        [
+          [
+            [226247.1589, 586093.873], 
+            [226218.407200001, 586048.108100001], 
+            [226204.293099999, 586000.572000001], 
+            [226204.293099999, 585998.587299999], 
+            [226205.6142, 585996.5403], 
+            [226209.439100001, 585991.133099999], 
+            [226209.570999999, 585988.8906], 
+            [226201.130100001, 585962.908799998], 
+            [226200.006999999, 585960.6457], 
+            [226197.467, 585959.376200002], 
+            [226106.899999999, 585942.072299998], 
+            [226089.0403, 585936.833900001], 
+            [225944.4989, 585906.988400001], 
+            [225934.3389, 585906.591499999], 
+            [225926.938000001, 585903.560199998], 
+            [225779.981899999, 585872.767499998], 
+            [225779.030999999, 585887.598000001], 
+            [225780.668900002, 585887.780000001], 
+            [225771.114500001, 586001.859099999], 
+            [225916.437199999, 586028.305199999], 
+            [225914.870099999, 586036.6633], 
+            [225914.865800001, 586036.6864], 
+            [225915.114300001, 586036.837299999], 
+            [225924.186799999, 586037.156300001], 
+            [225928.105900001, 586037.678599998], 
+            [225929.036699999, 586029.885299999], 
+            [225943.435800001, 586032.800000001], 
+            [225945.479899999, 586022.095800001], 
+            [226025.199000001, 586036.896400001], 
+            [226043.375999998, 586040.791999999], 
+            [226038.816, 586062.315000001], 
+            [226037.403999999, 586065.460999999], 
+            [226056.1448, 586069.8334], 
+            [226060.774099998, 586070.9135], 
+            [226059.660100002, 586077.3717], 
+            [226092.983100001, 586082.530900002], 
+            [226109.8649, 586083.981199998], 
+            [226118.041900001, 586083.0581], 
+            [226128.328400001, 586077.651000001], 
+            [226133.472199999, 586076.595899999], 
+            [226138.088199999, 586076.7278], 
+            [226246.763099998, 586094.795600001], 
+            [226247.1589, 586093.873]
+          ]
+        ]
+      }
+    }, 
+    {
+      "attributes" : {
+        "OBJECTID" : 390829, 
+        "FUNCTIONEEL_ID" : "32.0000000373455.002", 
+        "NEN3610ID" : "NL.IMDR.6c685230-42cd-4173-bb75-1383548a8670", 
+        "BEGINGELDIGHEID" : 1420070400000, 
+        "EINDGELDIGHEID" : 1451606400000, 
+        "CLASSIFICATIEREGELINGPERCEEL" : "030", 
+        "BRON_REGELINGPERCEEL" : "010", 
+        "REGELINGPERCEEL_NAAM" : null, 
+        "ZAAK_ID" : 8454142, 
+        "REDEN_GECONSTATEERDE_AFWIJKING" : "GSL", 
+        "CATEGORIE_KENNELIJKE_FOUT" : null, 
+        "POTENTIELE_OPZET" : null, 
+        "IND_GEANNULEERD" : null, 
+        "OPPERVLAKTE" : 6.9422, 
+        "BETEELDEOPPERVLAKTE" : 6.94, 
+        "GRONDBEDEKKINGTYPE" : "001", 
+        "GRONDBEDEKKING" : "236", 
+        "PALWAARDE" : null, 
+        "PWWAARDE" : null, 
+        "VOLGTEELT1GRONDBEDEKKINGTYPE" : "001", 
+        "VOLGTEELT1GRONDBEDEKKING" : "3524", 
+        "VOLGTEELT1OPPERVLAKTE" : 7.09, 
+        "VOLGTEELT2GRONDBEDEKKINGTYPE" : null, 
+        "VOLGTEELT2GRONDBEDEKKING" : null, 
+        "VOLGTEELT2OPPERVLAKTE" : null, 
+        "VOLGTEELT3GRONDBEDEKKINGTYPE" : null, 
+        "VOLGTEELT3GRONDBEDEKKING" : null, 
+        "VOLGTEELT3OPPERVLAKTE" : null, 
+        "DIENSTSLEUTEL" : "204594938", 
+        "HOOFDREF_PERCEEL_ID" : "10.0000000842442.006", 
+        "TYPE_DIENSTSLEUTEL" : "BRS", 
+        "IND_INGETROKKEN" : null, 
+        "VOLGNUMMER" : 8, 
+        "GLOBALID" : "c893f4f0-c0d0-4b79-ab1e-eaf5f7795b0e", 
+        "SUBSOPPERVLAKTE" : 6.94, 
+        "GEBRUIKSTITEL" : "01", 
+        "ORIGINEEL_VOLGNUMMER" : 8, 
+        "DATUM_OPGAVE" : 1431689273000, 
+        "SECTOR_ID" : null, 
+        "SECTOR_VERSIE" : null, 
+        "FUNCTIONEEL_ID_AANGEVRAAGD" : null, 
+        "SECTOR_ID_AANGEVRAAGD" : null
+      }, 
+      "geometry" : 
+      {
+        "rings" : 
+        [
+          [
+            [225781.206298828, 586044.490783691], 
+            [225779.755859375, 586060.712402344], 
+            [225776.194824219, 586099.883117676], 
+            [225769.99609375, 586198.797607422], 
+            [225767.358154297, 586235.989624023], 
+            [225767.358154297, 586237.967712402], 
+            [225770.697998047, 586237.172973633], 
+            [225778.075927734, 586232.356994629], 
+            [225785.019042969, 586229.406005859], 
+            [225842.465820313, 586238.611206055], 
+            [225861.460205078, 586241.654907227], 
+            [225882.226074219, 586244.334106445], 
+            [225902.588378906, 586248.37512207], 
+            [225902.616943359, 586248.054992676], 
+            [225910.746337891, 586248.361022949], 
+            [225911.774169922, 586224.251586914], 
+            [225913.620361328, 586197.611083984], 
+            [225917.181884766, 586197.08380127], 
+            [225937.491455078, 586197.742980957], 
+            [225972.969726563, 586203.941894531], 
+            [226052.760498047, 586217.526000977], 
+            [226132.684082031, 586232.824890137], 
+            [226149.697998047, 586234.538696289], 
+            [226158.138183594, 586234.407775879], 
+            [226177.789794922, 586230.45098877], 
+            [226197.177001953, 586230.187072754], 
+            [226213.135009766, 586230.582397461], 
+            [226238.589111328, 586232.824890137], 
+            [226245.578613281, 586234.670715332], 
+            [226247.821289063, 586235.462280273], 
+            [226260.218994141, 586215.283508301], 
+            [226287.317382813, 586169.33392334], 
+            [226287.292480469, 586169.329772949], 
+            [226288.598144531, 586157.172973633], 
+            [226277.068115234, 586154.290527344], 
+            [226271.755371094, 586150.185302734], 
+            [226256.499023438, 586144.090209961], 
+            [226255.026367188, 586143.61151123], 
+            [226255.040283203, 586143.5078125], 
+            [226123.501953125, 586101.572387695], 
+            [226076.190917969, 586089.744628906], 
+            [226002.251708984, 586076.831970215], 
+            [225954.111083984, 586069.425415039], 
+            [225912.116699219, 586062.721374512], 
+            [225897.650878906, 586060.41217041], 
+            [225781.211914063, 586044.491516113], 
+            [225781.206298828, 586044.490783691]
+          ], 
+          [
+            [226265.595947266, 586152.814208984], 
+            [226265.662597656, 586152.827575684], 
+            [226264.1875, 586161.643371582], 
+            [226265.595947266, 586152.814208984]
+          ], 
+          [
+            [226263.607421875, 586165.280578613], 
+            [226268.081054688, 586166.057373047], 
+            [226263.604980469, 586165.29498291], 
+            [226263.607421875, 586165.280578613]
+          ]
+        ]
+      }
+    }, 
+    {
+      "attributes" : {
+        "OBJECTID" : 390830, 
+        "FUNCTIONEEL_ID" : "32.0000000373456.001", 
+        "NEN3610ID" : "NL.IMDR.0547c6e9-0449-43d5-b07b-d364e3cf9f91", 
+        "BEGINGELDIGHEID" : 1420070400000, 
+        "EINDGELDIGHEID" : 1451606400000, 
+        "CLASSIFICATIEREGELINGPERCEEL" : "010", 
+        "BRON_REGELINGPERCEEL" : "010", 
+        "REGELINGPERCEEL_NAAM" : null, 
+        "ZAAK_ID" : 8454142, 
+        "REDEN_GECONSTATEERDE_AFWIJKING" : null, 
+        "CATEGORIE_KENNELIJKE_FOUT" : null, 
+        "POTENTIELE_OPZET" : null, 
+        "IND_GEANNULEERD" : null, 
+        "OPPERVLAKTE" : 0.34, 
+        "BETEELDEOPPERVLAKTE" : 0.34, 
+        "GRONDBEDEKKINGTYPE" : "1", 
+        "GRONDBEDEKKING" : "1925", 
+        "PALWAARDE" : null, 
+        "PWWAARDE" : null, 
+        "VOLGTEELT1GRONDBEDEKKINGTYPE" : null, 
+        "VOLGTEELT1GRONDBEDEKKING" : null, 
+        "VOLGTEELT1OPPERVLAKTE" : null, 
+        "VOLGTEELT2GRONDBEDEKKINGTYPE" : null, 
+        "VOLGTEELT2GRONDBEDEKKING" : null, 
+        "VOLGTEELT2OPPERVLAKTE" : null, 
+        "VOLGTEELT3GRONDBEDEKKINGTYPE" : null, 
+        "VOLGTEELT3GRONDBEDEKKING" : null, 
+        "VOLGTEELT3OPPERVLAKTE" : null, 
+        "DIENSTSLEUTEL" : "204594938", 
+        "HOOFDREF_PERCEEL_ID" : "10.0000000842443.004", 
+        "TYPE_DIENSTSLEUTEL" : "BRS", 
+        "IND_INGETROKKEN" : null, 
+        "VOLGNUMMER" : 9, 
+        "GLOBALID" : "37957d09-4de8-4694-aeaa-545553e98ef8", 
+        "SUBSOPPERVLAKTE" : 0.34, 
+        "GEBRUIKSTITEL" : "01", 
+        "ORIGINEEL_VOLGNUMMER" : 9, 
+        "DATUM_OPGAVE" : 1431689273000, 
+        "SECTOR_ID" : null, 
+        "SECTOR_VERSIE" : null, 
+        "FUNCTIONEEL_ID_AANGEVRAAGD" : null, 
+        "SECTOR_ID_AANGEVRAAGD" : null
+      }, 
+      "geometry" : 
+      {
+        "rings" : 
+        [
+          [
+            [226147.016176924, 586086.098928607], 
+            [226139.894176917, 586085.702928604], 
+            [226135.278176913, 586085.966928613], 
+            [226120.903176901, 586090.18692861], 
+            [226113.517176895, 586091.505928612], 
+            [226106.994176892, 586091.61292861], 
+            [226177.300376945, 586102.024628617], 
+            [226193.84777696, 586115.115828621], 
+            [226206.992876972, 586110.205528618], 
+            [226215.721176976, 586125.533928619], 
+            [226227.231276985, 586121.75732862], 
+            [226230.107276989, 586130.57292862], 
+            [226248.916277005, 586125.945428621], 
+            [226273.492877024, 586145.766428638], 
+            [226275.743577027, 586145.711728627], 
+            [226275.158277024, 586144.828928632], 
+            [226310.861917771, 586143.125867924], 
+            [226260.966177013, 586123.422928627], 
+            [226250.477177005, 586109.025928616], 
+            [226246.218177002, 586108.511928615], 
+            [226245.931177002, 586103.849928614], 
+            [226244.754177, 586103.026928611], 
+            [226203.991176967, 586095.462928607], 
+            [226147.016176924, 586086.098928607]
+          ]
+        ]
+      }
+    }, 
+    {
+      "attributes" : {
+        "OBJECTID" : 390831, 
+        "FUNCTIONEEL_ID" : null, 
+        "NEN3610ID" : null, 
+        "BEGINGELDIGHEID" : null, 
+        "EINDGELDIGHEID" : null, 
+        "CLASSIFICATIEREGELINGPERCEEL" : null, 
+        "BRON_REGELINGPERCEEL" : null, 
+        "REGELINGPERCEEL_NAAM" : null, 
+        "ZAAK_ID" : null, 
+        "REDEN_GECONSTATEERDE_AFWIJKING" : null, 
+        "CATEGORIE_KENNELIJKE_FOUT" : null, 
+        "POTENTIELE_OPZET" : null, 
+        "IND_GEANNULEERD" : null, 
+        "OPPERVLAKTE" : null, 
+        "BETEELDEOPPERVLAKTE" : null, 
+        "GRONDBEDEKKINGTYPE" : null, 
+        "GRONDBEDEKKING" : null, 
+        "PALWAARDE" : null, 
+        "PWWAARDE" : null, 
+        "VOLGTEELT1GRONDBEDEKKINGTYPE" : null, 
+        "VOLGTEELT1GRONDBEDEKKING" : null, 
+        "VOLGTEELT1OPPERVLAKTE" : null, 
+        "VOLGTEELT2GRONDBEDEKKINGTYPE" : null, 
+        "VOLGTEELT2GRONDBEDEKKING" : null, 
+        "VOLGTEELT2OPPERVLAKTE" : null, 
+        "VOLGTEELT3GRONDBEDEKKINGTYPE" : null, 
+        "VOLGTEELT3GRONDBEDEKKING" : null, 
+        "VOLGTEELT3OPPERVLAKTE" : null, 
+        "DIENSTSLEUTEL" : null, 
+        "HOOFDREF_PERCEEL_ID" : null, 
+        "TYPE_DIENSTSLEUTEL" : null, 
+        "IND_INGETROKKEN" : null, 
+        "VOLGNUMMER" : null, 
+        "GLOBALID" : "a23ca8a5-949d-4fc0-abe2-122bb6e917b5", 
+        "SUBSOPPERVLAKTE" : null, 
+        "GEBRUIKSTITEL" : null, 
+        "ORIGINEEL_VOLGNUMMER" : null, 
+        "DATUM_OPGAVE" : null, 
+        "SECTOR_ID" : null, 
+        "SECTOR_VERSIE" : null, 
+        "FUNCTIONEEL_ID_AANGEVRAAGD" : null, 
+        "SECTOR_ID_AANGEVRAAGD" : null
+      }, 
+      "geometry" : 
+      {
+        "rings" : 
+        [
+          [
+            [226280.87973189, 586248.222703462], 
+            [226317.658142731, 586230.908838085], 
+            [226302.049757536, 586172.811574559], 
+            [226280.87973189, 586248.222703462]
+          ]
+        ]
+      }
+    }
+  ]
+}
