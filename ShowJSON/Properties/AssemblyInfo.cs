@@ -10,7 +10,7 @@ using System.Runtime.InteropServices;
 [assembly: AssemblyConfiguration("")]
 [assembly: AssemblyCompany("GisSense BV")]
 [assembly: AssemblyProduct("ShowJSON")]
-[assembly: AssemblyCopyright("Free of use under LPGL")]
+[assembly: AssemblyCopyright("GNU Lesser General Public License")]
 [assembly: AssemblyTrademark("ShowJSON")]
 [assembly: AssemblyCulture("")]
 
