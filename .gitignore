@@ -3,3 +3,6 @@
 ################################################################################
 
 /packages/Newtonsoft.Json.9.0.1
+/ShowJSON/bin
+/ShowJSON/obj
+/ShowJSON/packages.config
