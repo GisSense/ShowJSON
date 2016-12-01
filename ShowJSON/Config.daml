@@ -1,0 +1,50 @@
+﻿<ArcGIS defaultAssembly="ShowJSON.dll" defaultNamespace="ShowJSON" xmlns="http://schemas.esri.com/DADF/Registry" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://schemas.esri.com/DADF/Registry file:///C:/Program%20Files/ArcGIS/Pro/bin/ArcGIS.Desktop.Framework.xsd">
+  <AddInInfo id="{ea7ad425-701b-401b-a9ea-a7c3585b2bac}" version="1.0" desktopVersion="1.3.5861">
+    <Name>ShowJSON</Name>
+    <Description>ShowJSON description</Description>
+    <Image>Images\AddinDesktop32.png</Image>
+    <Author>C.Kleiboer</Author>
+    <Company>GisSense BV</Company>
+    <Date>November 2016</Date>
+    <Subject>Framework</Subject>
+    <!-- Note subject can be one or more of these topics:
+                    Content, Framework, Editing, Geodatabase, Geometry, Geoprocessing, Layouts, Map Authoring, Map Exploration -->
+  </AddInInfo>
+  <modules>
+    <insertModule id="ShowJSON_Module" className="ShowPro" autoLoad="false" caption="ShowPro">
+      <!-- uncomment to have the control hosted on a separate tab-->
+      <tabs>
+        <!--<tab id="ShowJSON_Tab1" caption="New Tab">
+          <group refID="ShowJSON_Group1"/>
+        </tab>-->
+      </tabs>
+      <groups>
+        <!-- comment this out if you have no controls on the Addin tab to avoid
+              an empty group-->
+        <group id="ShowJSON_Group1" caption="ShowJSON" appearsOnAddInTab="true">
+          <!-- host controls within groups -->
+          <button refID="ShowJSON_TheDockpane_ShowButton" size="large" />
+        </group>
+      </groups>
+      <controls>
+        <!-- add your controls here -->
+        <button id="ShowJSON_TheDockpane_ShowButton" caption="Show Window" className="TheDockpane_ShowButton" loadOnClick="true" smallImage="Images\btnShowTheJSON16.png" largeImage="Images\btnShowTheJSON128.png">
+          <tooltip heading="Show Dockpane">Show Dockpane<disabledText /></tooltip>
+        </button>
+        <button id="ShowJSON_TheDockpane_MenuButton" caption="About..." className="TheDockpane_MenuButton" loadOnClick="true">
+          <tooltip heading="About...">Who made this?<disabledText /></tooltip>
+        </button>
+      </controls>
+      <dockPanes>
+        <dockPane id="ShowJSON_TheDockpane" caption="ShowJSON" className="TheDockpaneViewModel" dock="group" dockWith="esri_core_contentsDockPane">
+          <content className="TheDockpaneView" />
+        </dockPane>
+      </dockPanes>
+      <menus>
+        <menu id="ShowJSON_TheDockpane_Menu" caption="Options" contextMenu="true">
+          <button refID="ShowJSON_TheDockpane_MenuButton" />
+        </menu>
+      </menus>
+    </insertModule>
+  </modules>
+</ArcGIS>

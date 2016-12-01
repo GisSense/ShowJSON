@@ -1,0 +1,17 @@
+﻿<Window x:Class="ShowJSON.AboutShowTheJSON"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:ShowJSON"
+        mc:Ignorable="d"
+        Title="About..." Height="300" Width="300" ResizeMode="NoResize" SizeToContent="WidthAndHeight" WindowStartupLocation="CenterScreen" Loaded="Window_Loaded">
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="73" />
+            <RowDefinition Height="188*" />
+        </Grid.RowDefinitions>
+        <RichTextBox DataContext="{Binding}" Height="188" HorizontalAlignment="Left" Name="rtbAbout" VerticalAlignment="Top" Width="278" Grid.Row="1" AcceptsReturn="True" IsUndoEnabled="False" IsTabStop="False" IsHitTestVisible="False" IsEnabled="True" IsReadOnly="True" />
+        <Image Height="59" Margin="66,8,0,6" x:Name="image1" Stretch="Fill" DataContext="{Binding}" Source="Images/gissense_143x59_v2.png" HorizontalAlignment="Left" Width="143" MouseUp="image1_MouseUp" Cursor="Hand" />
+    </Grid>
+</Window>

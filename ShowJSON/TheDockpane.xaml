@@ -1,0 +1,37 @@
+﻿<UserControl x:Class="ShowJSON.TheDockpaneView"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008"                          
+             xmlns:ExtensionsControls="clr-namespace:ArcGIS.Desktop.Extensions.Controls;assembly=ArcGIS.Desktop.Extensions"                       
+             mc:Ignorable="d"  MinWidth="240">
+    <UserControl.Resources>
+        <ResourceDictionary>
+            <ResourceDictionary.MergedDictionaries>
+                <ResourceDictionary Source="pack://application:,,,/ArcGIS.Desktop.Framework;component\Themes\Default.xaml"/>
+            </ResourceDictionary.MergedDictionaries>
+        </ResourceDictionary>
+    </UserControl.Resources>
+    <Grid ScrollViewer.HorizontalScrollBarVisibility="Auto" ScrollViewer.VerticalScrollBarVisibility="Auto">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="30"/>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="26"/>
+        </Grid.RowDefinitions>
+
+        <DockPanel KeyboardNavigation.TabNavigation="Local" Grid.RowSpan="3" >
+            <Label DockPanel.Dock="Bottom" FontSize="11" Foreground="Blue" Height="26" x:Name="lblMessage" VerticalContentAlignment="Bottom"  />
+            <DockPanel DockPanel.Dock="Top" Grid.RowSpan="2">
+                <StackPanel Margin="0,5" Orientation="Horizontal" HorizontalAlignment="Left" DockPanel.Dock="Left">
+                    <Button x:Name="btnClearText" Content="Clear text" Height="20" Width="60" RenderTransformOrigin="-0.378,0.494" Click="btnClearText_Click"/>
+                    <Button x:Name="btnClearGeometries" Content="Clear geometries" Height="20" Width="100" RenderTransformOrigin="-0.378,0.494" Click="btnClearGeometries_Click"/>
+                    <Button x:Name="btnDraw" Content="Draw" Height="20" Width="50" RenderTransformOrigin="-0.378,0.494" Click="btnDraw_Click"/>
+                </StackPanel>
+                <ExtensionsControls:BurgerButton HorizontalAlignment="Right" DockPanel.Dock="Right"
+                    ToolTip="{Binding BurgerButtonTooltip}"
+                    PopupMenu="{Binding BurgerButtonMenu}" Margin="0" Width="22" HorizontalContentAlignment="Right" />
+            </DockPanel>
+            <TextBox DockPanel.Dock="Top" x:Name="txbJSON" TextWrapping="Wrap" Cursor="IBeam" AcceptsReturn="True" AcceptsTab="True" AllowDrop="True" ForceCursor="True" HorizontalScrollBarVisibility="Visible" VerticalScrollBarVisibility="Visible" Panel.ZIndex="1" UseLayoutRounding="True" VerticalContentAlignment="Stretch" />
+        </DockPanel>
+    </Grid>
+</UserControl>
