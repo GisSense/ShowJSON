@@ -1,5 +1,5 @@
 ﻿<ArcGIS defaultAssembly="ShowJSON.dll" defaultNamespace="ShowJSON" xmlns="http://schemas.esri.com/DADF/Registry" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://schemas.esri.com/DADF/Registry file:///C:/Program%20Files/ArcGIS/Pro/bin/ArcGIS.Desktop.Framework.xsd">
-  <AddInInfo id="{ea7ad425-701b-401b-a9ea-a7c3585b2bac}" version="1.0" desktopVersion="1.3.5861">
+  <AddInInfo id="{ea7ad425-701b-401b-a9ea-a7c3585b2bac}" version="1.0" desktopVersion="2.0">
     <Name>ShowJSON</Name>
     <Description>ShowJSON description</Description>
     <Image>Images\AddinDesktop32.png</Image>
@@ -21,17 +21,17 @@
       <groups>
         <!-- comment this out if you have no controls on the Addin tab to avoid
               an empty group-->
-        <group id="ShowJSON_Group1" caption="ShowJSON" appearsOnAddInTab="true">
+        <group id="ShowJSON_Group1" caption="ShowJSON" appearsOnAddInTab="true" keytip="S">
           <!-- host controls within groups -->
           <button refID="ShowJSON_TheDockpane_ShowButton" size="large" />
         </group>
       </groups>
       <controls>
         <!-- add your controls here -->
-        <button id="ShowJSON_TheDockpane_ShowButton" caption="Show Window" className="TheDockpane_ShowButton" loadOnClick="true" smallImage="Images\btnShowTheJSON16.png" largeImage="Images\btnShowTheJSON128.png">
+        <button id="ShowJSON_TheDockpane_ShowButton" caption="Show Window" className="TheDockpane_ShowButton" loadOnClick="true" smallImage="Images\btnShowTheJSON16.png" largeImage="Images\btnShowTheJSON128.png" keytip="s">
           <tooltip heading="Show Dockpane">Show Dockpane<disabledText /></tooltip>
         </button>
-        <button id="ShowJSON_TheDockpane_MenuButton" caption="About..." className="TheDockpane_MenuButton" loadOnClick="true">
+        <button id="ShowJSON_TheDockpane_MenuButton" caption="About..." className="TheDockpane_MenuButton" loadOnClick="true" keytip="a">
           <tooltip heading="About...">Who made this?<disabledText /></tooltip>
         </button>
       </controls>

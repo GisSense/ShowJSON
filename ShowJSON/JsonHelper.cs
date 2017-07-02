@@ -189,7 +189,7 @@ namespace ShowJSON
                 //{"xmin":1,"ymin":2,"xmax":3,"ymax":4,"spatialReference":{"wkid":4326}}
                 try
                 {
-                    retGeom = GeometryEngine.ImportFromJSON(JSONImportFlags.jsonImportDefaults, json);
+                    retGeom = GeometryEngine.Instance.ImportFromJSON(JSONImportFlags.jsonImportDefaults, json);
 
                     switch (retGeom.GeometryType)
                     {
@@ -232,18 +232,18 @@ namespace ShowJSON
                 {
                     case GeometryType.Polygon:
                     case GeometryType.Envelope:
-                        CIMStroke outline = SymbolFactory.ConstructStroke(ColorFactory.RedRGB, 2.0, SimpleLineStyle.Solid);
+                        CIMStroke outline = SymbolFactory.Instance.ConstructStroke(ColorFactory.Instance.RedRGB, 2.0, SimpleLineStyle.Solid);
                         CIMPolygonSymbol fillWithOutline =
-                            SymbolFactory.ConstructPolygonSymbol(ColorFactory.RedRGB, SimpleFillStyle.Null, outline);
+                            SymbolFactory.Instance.ConstructPolygonSymbol(ColorFactory.Instance.RedRGB, SimpleFillStyle.Null, outline);
                         retval = fillWithOutline.MakeSymbolReference();
                         break;
                     case GeometryType.Point:
                     case GeometryType.Multipoint:
-                        CIMPointSymbol ps = SymbolFactory.ConstructPointSymbol(ColorFactory.RedRGB, 5.0, SimpleMarkerStyle.Circle);
+                        CIMPointSymbol ps = SymbolFactory.Instance.ConstructPointSymbol(ColorFactory.Instance.RedRGB, 5.0, SimpleMarkerStyle.Circle);
                         retval = ps.MakeSymbolReference();
                         break;
                     case GeometryType.Polyline:
-                        CIMLineSymbol ls = SymbolFactory.ConstructLineSymbol(ColorFactory.RedRGB, 2.0, SimpleLineStyle.Solid);
+                        CIMLineSymbol ls = SymbolFactory.Instance.ConstructLineSymbol(ColorFactory.Instance.RedRGB, 2.0, SimpleLineStyle.Solid);
                         retval = ls.MakeSymbolReference();
                         break;
                     default:
